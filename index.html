@@ -1,21 +1,37 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="index.css" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <html>
+  <head>
+    <title>Moment</title>
+  </head>
 
-<head>
-    <title>session1</title>
-</head>
-
-<body>
+  <body>
+      <div class="jumbotron text-center">
     <div class="js-clock">
-        <h1>00:00</h1>
+      <h1>00:00</h1>
     </div>
     <form class="js-form form">
-        <input type="text" placeholder="What is your name?">
+      <input type="text" placeholder="What is your name?" />
     </form>
     <h4 class="js-greeting greeting"></h4>
+    <form class="js-toDoForm">
+      <input type="text" placeholder="할 일" />
+    </form>
+    <ul class="js-toDoList"></ul>
+    <span class="js-weather"></span>
+</div>
     <script src="clock.js"></script>
     <script src="greeting.js"></script>
-</body>
-
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+  </body>
 </html>

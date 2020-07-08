@@ -24,7 +24,7 @@ function askForName() {
 function showGreeting(text) {
     form.classList.remove(SHOWING_CN);
     greeting.classList.add(SHOWING_CN);
-    greeting.innerHTML = `Hello ${text}`
+    greeting.innerHTML = `안녕하세요! ${text}`
 }
 function loadName() {
     const currentUser = localStorage.getItem(USER_LS);

@@ -1,19 +1,41 @@
-body{
-    background-color: peru;
+body {
+  background-color: peru;
 }
-h1{
-    color: white;
-    transition: color .5s ease-in-out;
+h1 {
+  color: white;
+  transition: color 0.5s ease-in-out;
 }
-.btn{
-    cursor: pointer;
+.btn {
+  cursor: pointer;
 }
-.clicked{
+.clicked {
+  color: black;
+}
+.jumbotron{
+    background-color: red;
+}
+.form,
+.greeting {
     color: black;
+  display: none;
 }
-.form, .greeting{
-display: none;
+.showing {
+  display: block;
 }
-.showing{
-    display: block;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.bgImage {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  animation: fadeIn 0.5s linear;
 }
