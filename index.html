@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="index.css" />
+<link href="https://fonts.googleapis.com/css2?family=Fondamento&display=swap" rel="stylesheet">
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link
@@ -14,7 +15,8 @@
   </head>
 
   <body>
-      <div class="jumbotron text-center">
+    <div class="container-fluid text-right"><span class="js-weather"></span></div>
+      <div class="container-fluid text-center" style="margin-top: 10%;">
     <div class="js-clock">
       <h1>00:00</h1>
     </div>
@@ -26,7 +28,7 @@
       <input type="text" placeholder="할 일" />
     </form>
     <ul class="js-toDoList"></ul>
-    <span class="js-weather"></span>
+    
 </div>
     <script src="clock.js"></script>
     <script src="greeting.js"></script>

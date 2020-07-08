@@ -20,7 +20,7 @@ saveToDo();
 function showToDo(text) {
     const li = document.createElement("li");
     const delBtn = document.createElement("button");
-    delBtn.innerHTML = "cancel";
+    delBtn.innerHTML = "❌";
     delBtn.addEventListener("click", deleteTodo);
     const span = document.createElement("span");
     const newId = toDos.length + 1;
