@@ -15,6 +15,9 @@ span{
   font-size: 20px;
   padding-right: 1%;
 }
+p{
+  color: white;
+}
 .js-clock {
   color: white;
 }
