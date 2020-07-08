@@ -3,7 +3,7 @@ body {
 }
 h1 {
   color: white;
-  transition: color 0.5s ease-in-out;
+  text-align: center;
 }
 ul {
   list-style: none;
@@ -22,7 +22,7 @@ p{
   color: white;
 }
 .js-clock h1 {
-  font-size: 150px;
+  font-size: 100px;
 }
 .btn {
   cursor: pointer;
@@ -34,6 +34,7 @@ p{
   color: black;
 }
 .js-weather {
+  text-align: right;
   font-size: 40px;
   color: white;
 }
