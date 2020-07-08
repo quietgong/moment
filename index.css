@@ -7,7 +7,7 @@ h1 {
 }
 ul {
   list-style: none;
-  color: white;
+  color: black;
 }
 span{
   font-weight: bold;
@@ -34,7 +34,11 @@ p{
   font-size: 20px;
   color: white;
 }
-.form,
+.form {
+  color: black;
+  display: none;
+  font-size: 20px;
+}
 .greeting {
   color: white;
   display: none;
