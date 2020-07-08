@@ -21,21 +21,33 @@
     <div class="container-fluid text-right">
       <span class="js-weather"></span>
     </div>
-    <div class="container-fluid text-center" style="margin-top: 10%;">
+    <div class="container-fluid text-center">
       <div class="js-clock">
         <h1>00:00</h1>
       </div>
       <form class="js-form form">
-        <input type="text" placeholder="What is your name?" />
+        <input type="text" placeholder="이름을 입력하세요" style="font-size: 50px;"/>
       </form>
       <h4 class="js-greeting greeting"></h4>
-      <form class="js-toDoForm">
-        <input type="text" placeholder="할 일" />
-      </form>
-      <ul class="js-toDoList"></ul>
     </div>
-    <footer class="container-fluid navbar-fixed-bottom">
-      <p>Made by Oh-junho</p>
+
+<div class="container-fluid" style="margin-top: 5%;">
+<div class="row">
+  <div class="col-xs-6 text-left">
+    <a href="http://m.naver.com"><img src="naver.jpg" class="img-responsive" style="width:80%"></a>
+    <a href="http://m.coupang.com"><img src="coupang.jpg" class="img-responsive" style="width:80%"></a>
+    <a href="http://google.com"><img src="google.jpg" class="img-responsive" style="width:80%"></a>
+      </div>
+  <div class="col-xs-6 text-rigth">
+    <form class="js-toDoForm">
+      <input type="text" placeholder="할 일" style="font-size: 50px;"/>
+    </form>
+    <ul class="js-toDoList"></ul>
+  </div>
+</div>
+</div>
+    <footer class="container-fluid navbar-fixed-bottom text-right">
+      <p>Made by 오준호</p>
       <p>Clone from NomadCoders</p>  
     </footer>
     <script src="clock.js"></script>

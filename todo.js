@@ -22,6 +22,7 @@ function showToDo(text) {
     const delBtn = document.createElement("button");
     delBtn.innerHTML = "❌";
     delBtn.addEventListener("click", deleteTodo);
+    delBtn.classList.add("delBtn")
     const span = document.createElement("span");
     const newId = toDos.length + 1;
     span.innerText = text;
